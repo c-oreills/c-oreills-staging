@@ -76,7 +76,7 @@ def increment():
     db.set_count(new_count)
 {% endhighlight %}
 
-before_after is a library that provides utilities to help reproduce this situation. It can insert arbitrary code before or after a function.
+[before_after](https://pypi.python.org/pypi/before_after/) is a library that provides utilities to help reproduce this situation. It can insert arbitrary code before or after a function.
 
 before_after relies on the [mock](https://pypi.python.org/pypi/mock) library to patch functions. If you're not familiar with mock then I suggest reading the [excellent docs](http://www.voidspace.org.uk/python/mock/). Of particular importance is [Where To Patch](http://www.voidspace.org.uk/python/mock/patch.html#where-to-patch).
 
