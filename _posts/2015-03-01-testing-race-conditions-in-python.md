@@ -2,6 +2,10 @@
 layout: post
 ---
 
+Race conditions are a danger whenever you have more than one process or thread accessing the same data. This post explores how to test race conditions after identifying them.
+
+## Incrmnt
+
 You're working on a hot new startup, Incrmnt, which does one thing and does it well.
 
 You display a global counter and a plus sign. Users can click the plus sign and the counter increases by one. It's so simple! It's so addictive! It's the next big thing for sure!
