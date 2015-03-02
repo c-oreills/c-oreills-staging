@@ -30,6 +30,10 @@ def increment():
 Your web server uses multiple processes to increase throughput, so this function can be running simultaneously in two different threads. If you're unlucky with the timing, this occurs:
 
 {% highlight python %}
+# Thread 1 and Thread 2 are executing in different processes at the same time
+# For purposes of illustration, they're placed side by side here
+# They're vertically spaced to show what code is executing at each point in time
+
 # Thread 1                          # Thread 2
 def increment():
                                     def increment():
