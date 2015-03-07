@@ -180,4 +180,4 @@ When we need more scale than this method provides, we can move the increment int
 
 Incrmnt is now race free, and people can happily click all day long without worrying about not being counted.
 
-This was a simple example, but before_after can be used in more complicated races to ensure that functions deal with the situation properly. Being able to test and reproduce in a single threaded environment is key to being more confident that you're handling your races properly.
+This was a simple example, but before_after can be used in more complicated races to ensure that your functions deal with the situation properly. Being able to test and reproduce in a single threaded environment is key to being more confident that you're handling your races properly.
