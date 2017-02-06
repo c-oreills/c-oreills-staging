@@ -3,6 +3,8 @@ layout: post
 title: "Hacking an AutoKitty Exerciser"
 ---
 
+***This post is still a Work In Progress***
+
 This is a guide on setting up an automatic cat exerciser to exercise your kitties while you're out at work. Overall costs should not exceed £30/$40.
 
 Jump to a section:
@@ -69,7 +71,7 @@ Unscrew the button, cut and strip the wires and twist them together to permanent
 In retrospect, you can simplify this by just jamming something into the gray case such that the push button is always depressed. I started this hack with the idea of bypassing a capacitor to override the 15 minute timer - but altering to activate upon power on makes that unnecessary.
 
 ### Controlling the Power via Timer {#power-on-timer}
-*I'm still waiting for my stuff to arrive, but here's my plans*
+***I'm still waiting for my stuff to arrive, but here's my plans***
 
 If you're playing along from the UK, this is simple, since you can buy [battery eliminators](https://www.amazon.co.uk/gp/product/B01MAWHOPM/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B01MAWHOPM&linkCode=as2&tag=oreills-21) for cheap.
 
