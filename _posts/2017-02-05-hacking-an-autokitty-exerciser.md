@@ -30,7 +30,8 @@ I looked up [how to stop this happening](https://www.pet-happy.com/why-is-your-c
 Both Abbie and I are out all day at work, so I decided to automate!
 
 ## Equipment
-![Sagawand]()
+![Saga loves the Wand](/images/autokitty/sagawand.5fps.gif)
+
 *We had already had a Motorised Cat Wand which Saga and Boo love.*
 {:.caption}
 
