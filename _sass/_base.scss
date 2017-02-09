@@ -127,7 +127,8 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: 14px;
+    font-family: monospace;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
 }
@@ -144,6 +145,7 @@ pre {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+        white-space: pre;
     }
 }
 
@@ -151,7 +153,6 @@ pre {
 
 /**
  * Wrapper
- */
 .wrapper {
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
@@ -168,6 +169,7 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
+ */
 
 
 
@@ -197,7 +199,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: #ffffff;
         }
     }
 }

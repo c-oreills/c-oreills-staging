@@ -1,0 +1,14 @@
+<div class="container-block">
+    <h2 id="{{ include.identifier }}-heading" class="container-block-title">{{ include.title }}</h2>
+    <ul id="{{ include.identifier }}" class="list-unstyled post-list collapse">
+        {% for post in include.posts %}
+        <li>
+            <a href="{{ post.url }}">
+                {{ post.title }}
+                <br/>
+                <small class="muted">{{ post.blurb }}</small>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

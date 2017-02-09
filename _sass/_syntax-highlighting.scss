@@ -7,6 +7,9 @@
   @extend %vertical-rhythm;
   color: white;
   background-color: #333333;
+  pre {
+      background-color: #333333;
+  }
   .c {
     color: #96917A;
     font-style: italic;
