@@ -31,6 +31,7 @@ Both Abbie and I are out all day at work, so I decided to automate!
 
 ## Equipment
 ![Saga loves the Wand](/images/autokitty/sagawand.5fps.gif)
+{:.caption}
 
 *We had already had a Motorised Cat Wand which Saga and Boo love.*
 {:.caption}
