@@ -1,6 +1,8 @@
 # Site settings
-title: oreills.co.uk
+title: oreills
 email: christy@oreills.co.uk
+description: > # this means to ignore newlines until "baseurl:"
+  Programmer, maths geek, gamer, acrobat, mountaineer, ad hoc MacGyver.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.oreills.co.uk" # the base hostname & protocol for your site
 github_username:  c-oreills
