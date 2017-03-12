@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <script>
+     function hasIncognitoCookie() {
+        return document.cookie.split('; ').indexOf('incognitocookie=true') !== -1;
+     }
      isOreills = window.location.hostname.indexOf('oreills') !== -1;
-     hasIncognitoCookie = document.cookie.split('; ').indexOf('incognitocookie=true') !== -1;
-     if (isOreills && !hasIncognitoCookie) {
+     if (isOreills && !hasIncognitoCookie()) {
          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
                                   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -23,7 +25,7 @@
          ga('create', 'UA-60262200-1', 'auto');
          ga('send', 'pageview');
      } else {
-         console.log('Skipping GA, oreills:', isOreills, 'incognitoCookie:', hasIncognitoCookie);
+         console.log('Skipping GA, oreills:', isOreills, 'incognitoCookie:', hasIncognitoCookie());
      }
 
     </script>

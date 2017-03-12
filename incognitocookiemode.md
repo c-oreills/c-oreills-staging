@@ -2,6 +2,8 @@
 title: IncognitoCookie
 ---
 
+<input id="cookiebox" type="text" oninput="setCookie(this)" />
+
 <script type="text/javascript">
 String.prototype.hashCode = function() {
   var hash = 0, i, chr;
@@ -19,10 +21,16 @@ function setCookie(input) {
   if (pwd.hashCode() !== -1083480347) {
     return;
   }
-  document.cookie = "incognitocookie=true"
-  $(input).css('background-color', 'chartreuse')
+  document.cookie = "incognitocookie=true; expires=Fri Dec 31 9999 23:59:00 UTC;";
+  setColor();
 }
 
+function setColor(){
+  if (hasIncognitoCookie()) {
+    $('#cookiebox').css('background-color', 'chartreuse');
+  }
+}
+
+setColor();
 </script>
 
-<input id="cookiebox" type="text" oninput="setCookie(this)" />
