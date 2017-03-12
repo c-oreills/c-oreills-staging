@@ -120,8 +120,10 @@ body {
     color: #fff;
 }
 
-.sidebar-wrapper a:hover, a:visited, a:link, a:active > .profile-container {
-    text-decoration: none;
+.profile-wrapper {
+    a:hover,a:visited,a:link,a:active {
+        text-decoration: none;
+    }
 }
 
 .sidebar-wrapper .profile-container {
