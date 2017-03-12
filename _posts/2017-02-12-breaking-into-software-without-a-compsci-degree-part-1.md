@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to break into Software Development without a CompSci degree (part 1)"
+title: "Breaking into Software Development without a CompSci degree (part 1)"
 ---
 
 
