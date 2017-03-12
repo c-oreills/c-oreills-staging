@@ -7,6 +7,14 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.c-oreills.com" # the base hostname & protocol for your site
 github_username:  c-oreills
 twitter_username:  c_oreills
+twitter:
+  username: c_oreills
+logo: /images/profile-120px.jpg
+social:
+  name: "Christy O'Reilly"
+  links:
+    - https://twitter.com/c_oreills
+    - https://github.com/c-oreills
 
 # Build settings
 highlighter: rouge
@@ -17,3 +25,4 @@ exclude:
 
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
