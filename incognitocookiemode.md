@@ -1,5 +1,6 @@
 ---
 title: IncognitoCookie
+sitemap: false
 ---
 
 <input id="cookiebox" type="text" oninput="setCookie(this)" />

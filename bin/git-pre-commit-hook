@@ -1,0 +1,7 @@
+#!/bin/sh
+
+./bin/critical_css
+git add css/critical.css
+
+#cp _site/sitemap.xml sitemap.xml
+#git add sitemap.xml

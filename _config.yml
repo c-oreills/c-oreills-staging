@@ -11,3 +11,9 @@ twitter_username:  c_oreills
 # Build settings
 highlighter: rouge
 markdown: kramdown
+
+exclude:
+  - bin
+
+gems:
+  - jekyll-sitemap
