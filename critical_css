@@ -1,3 +1,3 @@
 #!/bin/bash
-rm _includes/critical.css
-critical _site/index.html --base _site --minify > _includes/critical.css
+rm css/critical.css
+critical _site/index.html --base _site --minify > css/critical.css
