@@ -9,5 +9,5 @@ github_username:  c-oreills
 twitter_username:  c_oreills
 
 # Build settings
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
