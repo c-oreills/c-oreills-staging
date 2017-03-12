@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hacking an AutoKitty Exerciser"
+image: /images/autokitty/sagamouse.jpg
 ---
 
 This is a guide on setting up an automatic cat exerciser to stimulate your kitties while you're out at work. Overall costs should not exceed £30/$40.
