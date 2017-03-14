@@ -1,6 +1,6 @@
 <div class="container-block">
     <h2 id="{{ include.identifier }}-heading" class="container-block-title">{{ include.title }}</h2>
-    <ul id="{{ include.identifier }}" class="list-unstyled post-list collapse">
+    <ul id="{{ include.identifier }}" class="sidebar-list media-collapse">
         {% for post in include.posts %}
         <li>
             <a href="{{ post.url }}">

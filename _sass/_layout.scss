@@ -159,15 +159,18 @@ body {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.sidebar-wrapper .list-unstyled {
-    margin-bottom: 0px;
+.sidebar-list {
+    margin-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+    overflow-y: hidden;
 }
 
-.sidebar-wrapper .list-unstyled li {
+.sidebar-list li {
     margin-bottom: 10px;
 }
 
-.sidebar-wrapper .list-unstyled li:last-child {
+.sidebar-list li:last-child {
     margin-bottom: 0;
 }
 
@@ -217,6 +220,9 @@ body {
     }
     .sidebar-wrapper .container-block:last-child {
         padding-bottom: 15px;
+    }
+    .media-collapse {
+        display: none;
     }
     .main-wrapper {
         padding: 30px;

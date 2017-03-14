@@ -31,7 +31,7 @@
     <script>
      function checkSize() {
         if ($(window).width() <= 767) {
-            $('.list-unstyled').removeClass('show');
+            $('.sidebar-list').removeClass('media-collapse').addClass('collapse')
 
             $('.container-block-title').on("click", function() {
                 headingId = $(this).attr('id');
@@ -50,7 +50,7 @@
             });
 
          } else {
-             $('.list-unstyled').addClass('show');
+             $('.sidebar-list').removeClass('media-collapse collapse');
              $('.container-block-title').off("click");
          }
      }
